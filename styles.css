@@ -10,8 +10,8 @@ li, a{
     font-size: 24px;
     color: #222222;    
     text-decoration: none;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 header{
@@ -148,5 +148,8 @@ background-color: rgba(255, 113, 31,0.85);
 display:block;
 margin-left: -50;
 margin-right: -50;
+}
 
+a{
+    display: block;
 }
