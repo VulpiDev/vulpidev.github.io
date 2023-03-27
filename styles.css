@@ -47,6 +47,14 @@ header{
     padding: 5px;
 }
 
+.icon{
+    display: block;
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    padding: 1;
+}
+
 .nav_links{
     list-style: none;
     justify-content: center;
