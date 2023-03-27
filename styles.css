@@ -44,10 +44,7 @@ header{
     cursor: pointer;
     max-width: 100%;
     height: auto;
-    top: 10px;
-    @media screen and (min-width: 375px) {       
-          align-items: flex-start;
-        }
+    padding: 5px;
 }
 
 .nav_links{
