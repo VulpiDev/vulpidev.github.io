@@ -1,0 +1,25 @@
+.button-1{
+    background-color: #e62143;
+    border: 0;
+    color: #fff;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: rgba(180,20,60,0.50) 0 -3px 3px 0 inset,rgba(0,44,97,.2) 0 3px 6px 0;    
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: 700;
+    line-height: 24px;
+    min-height: 56px;
+    min-width: 120px;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+.button-1:hover{
+    background-color: #c41835;
+    transform: translateY(-2px);
+}
+
