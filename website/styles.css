@@ -8,17 +8,25 @@
 
 html, body {
     max-width: 100%;
-    overqlow-x: hidden;
+    width: auto!important; 
+    overflow-x: hidden!important;
     background-color: var(--bkg1);
     min-height: 100vh;
     display:flex; 
     flex-direction:column; 
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
 }
 
 .WebContainer{ 
     width:100%; 
-    min-width:600px; 
+    min-width:600px;
+    max-width: 100%; 
     height:auto; 
+    overflow-x: hidden!important;
+    margin: 0px;
+    padding: 0px;
+
 } 
 
 .container {
