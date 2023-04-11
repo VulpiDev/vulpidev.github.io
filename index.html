@@ -1,39 +1,150 @@
-<html lang="en" class="WebContainer">
+<!DOCTYPE html>
+<html lang="en" class="WebContainer" color-scheme="dark">
     <head>
         <meta charset="UTF-8">
+        <meta name="google-site-verification" content="gx-29C9W-bnF0IK_5Da1PKccePqnw4tDauh5NMXx6Y4"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+        <meta name="description" content="Welcome to the world of Vulpi, where gaming and community meet. Join us on Discord and explore our website for exciting games and engaging discussions.">  
+        <meta name="keywords" content="gaming, community, game development, gaming community, esport, discord, games, game">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Vulpi">
+        <meta name="application-name" content="Vulpi Games Website">
+        <meta name="theme-color" content="#ff711f">
+        <meta name="format-detection" content="telephone=no"> 
+
+        <meta property="og:title" content="Vulpi Games">
+        <meta property="og:image" content="https://vulpidev.github.io/website/icon.png">
+        <meta property="og:url" content="https://vulpidev.github.io/">
+        <meta property="og:description" content="World of Vulpi, where gaming and community meet. Join us on Discord and explore our website for exciting games and engaging discussions.">
+        <meta property="og:site_name" content="Vulpi Games">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Vulpi Games">
+        <meta name="twitter:description" content="World of Vulpi, where gaming and community meet. Join us on Discord and explore our website for exciting games and engaging discussions.">
+        <meta name="twitter:image" content="https://vulpidev.github.io/website/icon.png">
+        <meta name="twitter:url" content="https://vulpidev.github.io/">
+
         <title>Vulpi Games</title>
         <link rel="stylesheet" href="website/styles.css">
-        <link rel="stylesheet" href="website/buttons.css">
-        <link rel="icon" type="icon" href="website/icon.svg">  
+        <link rel="icon" type="icon" href="website/icon.svg">
     </head>
     <body>
         <header>
-            <a href="#", style="padding-right: 0; margin: 0;">
             <ul class="logolist" style="min-width: fit-content;">
-                <img class="logo" src="website/logo.svg" alt="logo text" style="max-width: 180; max-height: 70; min-width: 130px;">
+                <li style="list-style: none;">
+                    <div class="logo">
+                        <img class="logotext" src="website/logotext.svg" alt="text of logo" style="width: 90px; padding: 5px; transform: translateY(5px);">
+                        <img class="logoicon" src="website/logoico.svg" alt="logo" style="width: 40px; height: 60px; padding: 5px;">
+                    </div>
+                </li>
             </ul>
-            </a>
             <nav>
-                <ul class="text-2">
-                <ul class="nav_links">
-                    <li><a href="website/about.html">ABOUT US</a></li>
-                    <li><a href="website/games.html">GAMES</a></li>
-                    <li>
-                        <a style="width: 180px; height: 32px;"; href="https://discord.gg/csY3M3abuS">
-                        DISCORD
-                        <img class="icon" src="website/discordlogo.svg"alt="discord logo" style="width: 32; height: 32; transform:translate(110px, -32px);">
-                        </a>
-                    </li>
-                    
-                </ul>
-                </ul>
+                <div class="text-2">
+                    <ul class="nav_links" style="align-items: center;">
+                        <li><a href="website/about.html">ABOUT US</a></li>
+                        <li><a href="website/games.html">GAMES</a></li>
+                        <li><a style="width: 80px; height: 32px;" href="https://discord.gg/csY3M3abuS">DISCORD</a></li>                    
+                    </ul>
+                </div>
             </nav>
-            <a class="" href="#"></a>
+            <img id="themeBtn" src="website/lightOn.svg" style="height: 32px; min-width: 32px;" class="custom-img2" alt="theme changer-sun/moon">
+            <audio src="website/audio/lightsOn.wav" id="lightsOn"></audio>
+            <audio src="website/audio/lightsOff.wav" id="lightsOff"></audio>  
         </header>
+
+        <div class="container" style="margin-bottom: 100px;">
+            <img src="website/bg_gquote.svg" style="width: 100%; height: 600px;" id="baner-img" alt="Image of a baner, text: Just Play, Have fun enjoy the game!">
+            <div class="centered" style="text-shadow: 3px 3px 3px black;">Just play, Have fun.
+            <br>Enjoy the game!</br> 
+            </div>
+        </div>
+
         <main style="padding-top:1px;">
-            <h1 style="transform: translateY(100px);">VULPI GAMES</h1>  
-            <h2 style="transform: translateY(100px); ">I'm a single game developer.  Currently working on Blacksmith's forge</h2> 
+        <div class="custom1" style="max-width: 2560px; width: 100%; object-fit:scale-down; background-size: cover ;">
+            <span class="text1" >VULPI GAMES</span>
+            <span class="text2">                
+                Vulpi Games is the creative playground of a solo game developer with a passion for crafting unique and immersive gaming experiences. From mobile to PC, our games offer something for everyone. Join us on this journey and discover the magic of gaming for yourself.                
+            </span>    
+        </div>
         </main>
+
+        <div>
+            <div class="custom-container" style="position: relative;">
+                <picture onmouseover="Show()" onmouseleave="Hide()" id="picture1">
+                <source media="(min-width: 1920px)" srcset="website/gameC.jpg" alt=" Background big image">
+                <img src="website/game.jpg" style="width: 100%;" alt="Background image">
+                </picture>
+                <div class="c1-centered" id="text1">
+                    <h1 style="font-size: 56px;">PLAY TOGETHER,
+                        <br>
+                        JOIN OUR COMMUNITY!
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <section style="align-self: center; align-content: center; align-items: center; text-align: center;">
+                <div style="text-align: center; margin-top: 50px;" class="text3">
+                    <div style="font-size: 60px; font-weight: 500;">Join Our Community</div>
+                    <br>
+                    <div style="font-size: 32px;">Gaming is about building connections. Join our <a href="https://discord.gg/csY3M3abuS" style="display: inline-block; color: var(--accent1);">Discord</a> to connect with like-minded individuals, share tips, and make new friends from around the world. Play together today!</div>
+            </section>
+            <div class="c1-container">
+                <img src="website/changelog.png" class="c1-img" alt="Image of a changelog">
+                <div class="c1-text">
+                    Stay up-to-date with our latest changes and updates on our <a href="https://discord.gg/csY3M3abuS" style="display: inline-block; color: var(--accent1);">DISCORD</a>
+                </div>
+            </div>
+
+            <div class="c2-container">
+                <div class="c2-text">
+                    <div style="text-align: center;">
+                        Want to learn more about what we're up to behind the scenes? 
+                    </div>
+                    <br>
+                    Head over to our <a href="website/about.html" style="display: inline-block; color: var(--accent1);">ABOUT US</a> page where you can dive deeper into our journey as game developers and get a sneak peek at what we have in store for the future. 
+                    <br><br>
+                    Join us on our mission to create exciting and innovative games that bring people together.
+                    <div>
+                        visit: 
+                        <a href="website/about.html" style="display: inline-block; color: var(--accent1);">ABOUT US</a>    
+                    </div>
+            </div>
+        </main>
+
+        <div class="footer">
+            <div class="col-1">                
+                <div class="h3c" style="margin: 5px 0;">USEFUL LINKS</div>
+                <a href="website/about.html">ABOUT</a>
+                <a href="website/games.html">GAMES</a>
+            </div>
+            <div class="col-2">
+                <div class="h3c" style="padding-bottom: 10px;">NEWSLETTER</div>
+                <form>
+                    <input type="email" placeholder="Your Email" requireds style="font-family: Oswald;">
+                    <button style="transform: translateY(2px); font-family: Oswald; height: 35px;">GET IT</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <div class="h3c">CONTACT</div>
+                <div class="contact-icons">
+                    <input type="text" value="ivulpibiznes@gmail.com" id="myInput" hidden>
+                    <div class="tooltip" style="padding: 0px;">
+                    <img onclick="Copy()" onmouseout="outFunc()" src="website/emailbold_icon.svg" style="cursor: pointer; max-width: 50px;" alt="email icon">
+                    <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                    </div>
+                    <div class="container"></div>
+                    <a style="margin: 0px;" href="https://discord.gg/csY3M3abuS"><img src="website/discordlogo.svg"alt="discord icon" style="max-width: 40px; height: 32px; margin-top: 0;"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-divider" style="color: #808080;">
+            <div class="disclaimer">
+            Except where otherwise noted, content on this site © 2023 by <a href="https://github.com/VulpiDev" class="disclaimer-link">Vulpi</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" class="disclaimer-link">CC BY-NC 4.0</a> 
+            </div>
+        </div>
     </body>
+    <script src="website/scripts.js"></script>
+    <script src="website/darkmode.js"></script>
 </html>
