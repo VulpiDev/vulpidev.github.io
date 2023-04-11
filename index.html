@@ -2,8 +2,8 @@
 <html lang="en" class="WebContainer" color-scheme="dark">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"/>
         <meta name="google-site-verification" content="gx-29C9W-bnF0IK_5Da1PKccePqnw4tDauh5NMXx6Y4"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
         <meta name="description" content="Welcome to the world of Vulpi, where gaming and community meet. Join us on Discord and explore our website for exciting games and engaging discussions.">  
         <meta name="keywords" content="gaming, community, game development, gaming community, esport, discord, games, game">
         <meta name="robots" content="index, follow">
@@ -31,7 +31,7 @@
     <body>
         <header>
             <ul class="logolist" style="min-width: fit-content;">
-                <li style="list-style: none;">
+                <li class="logolist2">
                     <div class="logo">
                         <img class="logotext" src="website/logotext.svg" alt="text of logo" style="width: 90px; padding: 5px; transform: translateY(5px);">
                         <img class="logoicon" src="website/logoico.svg" alt="logo" style="width: 40px; height: 60px; padding: 5px;">
@@ -47,7 +47,7 @@
                     </ul>
                 </div>
             </nav>
-            <img id="themeBtn" src="website/lightOn.svg" style="height: 32px; min-width: 32px;" class="custom-img2" alt="theme changer-sun/moon">
+            <img id="themeBtn" src="website/lightOn.svg" style="height: 38px; min-width: 32px;" class="theme-changer-icon" alt="theme changer-sun/moon">
             <audio src="website/audio/lightsOn.wav" id="lightsOn"></audio>
             <audio src="website/audio/lightsOff.wav" id="lightsOff"></audio>  
         </header>
@@ -70,18 +70,17 @@
 
         <div>
             <div class="custom-container" style="position: relative;">
-                <picture onmouseover="Show()" onmouseleave="Hide()" id="picture1">
-                <source media="(min-width: 1920px)" srcset="website/gameC.jpg" alt=" Background big image">
-                <img src="website/game.jpg" style="width: 100%;" alt="Background image">
+                <picture>
+                    <source media="(min-width: 1920px)" srcset="website/gameCropped.webp" alt="Game image communtiy">
+                    <source media="(min-width: 1920px)" srcset="website/gameCropped.jpg" alt="Game image communtiy">
+                    <source media="(max-width: 800px)" srcset="website/gameSmallLQ.webp" alt="Game image communtiy">
+                    <source srcset="website/gameMedium.webp" alt="Game image communtiy">
+                    <source srcset="website/game.jpg" alt="Game image communtiy">
+                    <img src="website/game.jpg" style="width: 100%;" alt="Background image">                
                 </picture>
-                <div class="c1-centered" id="text1">
-                    <h1 style="font-size: 56px;">PLAY TOGETHER,
-                        <br>
-                        JOIN OUR COMMUNITY!
-                    </h1>
-                </div>
             </div>
         </div>
+
 
         <main>
             <section style="align-self: center; align-content: center; align-items: center; text-align: center;">
@@ -91,7 +90,7 @@
                     <div style="font-size: 32px;">Gaming is about building connections. Join our <a href="https://discord.gg/csY3M3abuS" style="display: inline-block; color: var(--accent1);">Discord</a> to connect with like-minded individuals, share tips, and make new friends from around the world. Play together today!</div>
             </section>
             <div class="c1-container">
-                <img src="website/changelog.png" class="c1-img" alt="Image of a changelog">
+                <img src="website/changelog-min.png" welass="c1-img" alt="Image of a changelog">
                 <div class="c1-text">
                     Stay up-to-date with our latest changes and updates on our <a href="https://discord.gg/csY3M3abuS" style="display: inline-block; color: var(--accent1);">DISCORD</a>
                 </div>

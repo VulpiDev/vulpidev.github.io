@@ -13,17 +13,6 @@ function outFunc() {
     tooltip.innerHTML = "Copy to clipboard";
 }
 
-function Show(){
-    picture = document.getElementById("picture1").setAttribute("class","customimg1")
-    text = document.getElementById("text1").setAttribute("class", "c1-centeredB")
-
-}
-
-function Hide(){
-    picture = document.getElementById("picture1").setAttribute("class","default")
-    text = document.getElementById("text1").setAttribute("class", "c1-centered")
-}
-
 const aboutBtn = document.getElementById('about-btn');
 const faqBtn = document.getElementById('faq-btn');
 const awardsBtn = document.getElementById('awards-btn');
@@ -145,14 +134,14 @@ otherBtn.addEventListener('click', function() {
 const title = document.getElementById("about-us-title");
 
 // Save the state of a div when the user leaves the page
-window.addEventListener('unload', function() {
+window.addEventListener('pagehide', function() {
   const div = document.getElementById("about-us-main");
   localStorage.setItem('myDivState', div.innerHTML);
   localStorage.setItem('myTitleState', title.innerHTML);
 });
 
 // Restore the state of the div when the user returns to the page
-window.addEventListener('load', function() {
+window.addEventListener('pageshow', function() {
   const div = document.getElementById("about-us-main");
   const savedState = localStorage.getItem('myDivState');
   const savedTitleState = localStorage.getItem('myTitleState');
@@ -163,3 +152,27 @@ window.addEventListener('load', function() {
     }
   }
 });
+
+
+// // Define the title element
+// const title = document.getElementById("about-us-title");
+
+// // Save the state of a div when the user leaves the page
+// window.addEventListener('unload', function() {
+//   const div = document.getElementById("about-us-main");
+//   localStorage.setItem('myDivState', div.innerHTML);
+//   localStorage.setItem('myTitleState', title.innerHTML);
+// });
+
+// // Restore the state of the div when the user returns to the page
+// window.addEventListener('load', function() {
+//   const div = document.getElementById("about-us-main");
+//   const savedState = localStorage.getItem('myDivState');
+//   const savedTitleState = localStorage.getItem('myTitleState');
+//   if (savedState && savedTitleState) {
+//     if(div && title){
+//       div.innerHTML = savedState;
+//       title.innerHTML = savedTitleState;
+//     }
+//   }
+// });
