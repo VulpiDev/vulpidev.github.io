@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210.47893mm"
+   height="203.60869mm"
+   viewBox="0 0 210.47893 203.60869"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="information.svg"
+   inkscape:export-filename="information.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.78127806"
+     inkscape:cx="186.23331"
+     inkscape:cy="495.34221"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="275.13951"
+       y="193.68373"
+       width="209.97489"
+       height="400.03837"
+       id="rect1147" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.47892979)">
+    <circle
+       style="opacity:0.5;fill:none;fill-opacity:1;stroke:#001aff;stroke-width:15;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path429"
+       cx="103.92776"
+       cy="102.26853"
+       r="93.391312" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1.0341142,0,0,1.0341142,-206.01436,-209.39446)"
+       id="text1145"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1147);display:inline;opacity:0.5;fill:#001aff;fill-opacity:1;stroke:#001aff;stroke-width:11.4664;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="275.13867"
+         y="361.68359"
+         id="tspan3046">i</tspan></text>
+  </g>
+</svg>

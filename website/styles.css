@@ -18,6 +18,10 @@ html, body {
     -webkit-overflow-scrolling: touch;
 }
 
+main{
+    margin: 10 auto;
+  }
+
 .WebContainer{ 
     width:100%; 
     min-width:600px;
@@ -92,6 +96,33 @@ main{
     font-weight: 400; 
     text-align: center;
 }
+
+/*TOOLS WEBSITE*/
+
+.tools-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+    font-family: Oswald;    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .tools-container > div {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bkg2);
+    font-family: Oswald;
+    text-align: center;
+    align-items: center;
+    margin: 0 10px;
+    padding: 50px;
+    width: calc(33% - 20px);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
 
 /*HEADER*/
 
@@ -743,6 +774,30 @@ form button:hover{
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    .tools-container {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    
+        font-family: Oswald;    justify-content: center;
+        text-align: center;
+        width: 100%;
+      }
+      
+      .tools-container > div {
+        display: flex;
+        justify-content: center;
+        background-color: var(--bkg2);
+        font-family: Oswald;
+        text-align: center;
+        align-items: center;
+        margin: 0 10px;
+        padding: 40px;
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        border-radius: 15px;
+      }
   }
 
   @media (max-width: 1366px){
@@ -925,6 +980,30 @@ form button:hover{
   }
 
   @media (max-width: 600px) {
+
+    .tools-container {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: Oswald;    
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+      }
+      
+      .tools-container > div {
+        display: flex;
+        justify-content: center;
+        background-color: var(--bkg2);
+        font-family: Oswald;
+        text-align: center;
+        align-items: center;
+        margin: 0 10px;
+        padding: 50px;
+        width: calc(100% - 20px);
+        margin-bottom: 10px;
+        border-radius: 15px;
+      }
 
     .theme-changer-icon{
         padding-right: 10px;
