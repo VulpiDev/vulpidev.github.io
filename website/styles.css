@@ -110,6 +110,7 @@ main{
   }
   
   .tools-container > div {
+    color: var(--text);
     display: flex;
     justify-content: center;
     background-color: var(--bkg2);
