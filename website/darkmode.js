@@ -10,17 +10,17 @@ function loadTheme(theme){
     const root = document.querySelector(':root');
   if (document.location.pathname === '/' || document.location.pathname.indexOf('index') >-1 ) {
     if(theme==="dark"){
-      document.getElementById("themeBtn").setAttribute("src", "website/lightOn.svg")
+      document.getElementById("themeBtn").setAttribute("src", "/website/lightOn.svg")
     }
     else if(theme === "light"){
-      document.getElementById("themeBtn").setAttribute("src", "website/lightOff.svg")
+      document.getElementById("themeBtn").setAttribute("src", "/website/lightOff.svg")
     }
-  } else{
+  }else{
     if(theme==="dark"){
-      document.getElementById("themeBtn").setAttribute("src", "lightOn.svg")
+      document.getElementById("themeBtn").setAttribute("src", "/website/lightOn-sunin.svg")
     }
     else if(theme === "light"){
-      document.getElementById("themeBtn").setAttribute("src", "lightOff.svg")
+      document.getElementById("themeBtn").setAttribute("src", "/website/lightOff.svg")
     }
   }
   root.setAttribute('color-scheme', `${theme}`);
