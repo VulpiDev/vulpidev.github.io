@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" id="html-main" class="WebContainer">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width"/>
+	<meta name="description" content="Calculate your weighted average quickly and easily with our online calculator. Input your grades and weights, save them for later, and track your academic performance effortlessly. Try it now!">  
+	<meta name="keywords" content="Weighted average, Grade calculator, GPA calculator, Academic performance, Course grades, Exam grades, Online calculator, Study tools, Education, Academic success, Class grades, College grades, High school grades, Student tools, Weighted grade">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Vulpi">
+	<meta name="application-name" content="Weighted Average Calculator - Easily Calculate and Track Your Grades">
+	<meta name="theme-color" content="#ff711f">
+	<meta name="format-detection" content="telephone=no"> 
+
+	<meta property="og:title" content="Weighted Average Calculator - Easily Calculate and Track Your Grades">
+	<meta property="og:image" content="https://vulpidev.github.io/website/logo.svg">
+	<meta property="og:url" content="https://vulpidev.github.io/tools/weighted/index.html">
+	<meta property="og:description" content="Calculate your weighted average quickly and easily with our online calculator. Input your grades and weights, save them for later, and track your academic performance effortlessly. Try it now!">
+	<meta property="og:site_name" content="Weighted Average Calculator - Easily Calculate and Track Your Grades">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Weighted Average Calculator - Easily Calculate and Track Your Grades">
+	<meta name="twitter:description" content="Calculate your weighted average quickly and easily with our online calculator. Input your grades and weights, save them for later, and track your academic performance effortlessly. Try it now!">
+	<meta name="twitter:image" content="https://vulpidev.github.io/website/logo.svg">
+	<meta name="twitter:url" content="https://vulpidev.github.io/tools/weighted/index.html">
+
+	<meta name="viewport" content="width=device-width"/>
+	<title>Weighted Average Advanced</title>
+	<link rel="icon" type="icon" href="/website/icon.svg">  
+	<link rel="stylesheet" href="stylesWa.css"> 
+</head>
+<body>
+
+	<header>
+		<a href="../../index.html", style="padding-right: 0; margin: 0;">
+			<ul class="logolist" style="min-width: fit-content;">
+				<li class="logolist2">
+					<div class="logo">
+						<img class="logotext" src="/website/logotext.svg" alt="text of the logo" style="width: 90px; padding: 5px; transform: translateY(5px);">
+						<img class="logoicon" src="/website/logoico.svg" alt="logo" style="width: 40px; height: 60px; padding: 5px;">
+					</div>
+				</li>
+			</ul>
+		</a>
+		<nav>
+			<div class="text-2">
+				<ul class="nav_links" style="align-items: center;">
+					<li><a href="/website/about.html">ABOUT US</a></li>
+					<li><a href="/website/games.html">GAMES</a></li>
+					<li><a style="width: 80px; height: 32px;" href="https://discord.gg/csY3M3abuS">DISCORD</a></li>                    
+				</ul>
+			</div>
+		</nav>
+		<img id="themeBtn" src="/website/lightOn-sunin.svg" style="height: 38px; min-width: 32px;" class="theme-changer-icon" alt="theme changer-sun/moon">
+		<audio src="/website/audio/lightsOn.wav" id="lightsOn"></audio>
+		<audio src="/website/audio/lightsOff.wav" id="lightsOff"></audio>  
+	</header>
+
+
+	<main>
+		<div class="info" id="infoText" style="display:none">
+			<h2>This feature is experimental</h2>
+			Please note that the 'Configurations' feature is still experimental and may contain bugs or unexpected behavior. While we have taken measures to ensure its stability, we cannot guarantee that it will work flawlessly.
+			<br><br>
+			<h2>How to use it?</h2>
+			first select 'New' from the dropdown menu, Then a form will pop out, fill it with desired name for config.
+			To load the new config select the config name in dropdown menu.
+			<br>
+			To delete an existing configuration, press DELETE button and enter name. Note that default configurations cannot be deleted.
+		</div>
+		<div class="saved-configs" id="saved-configs">
+			<form>	
+				<img src="information.svg" class="info-icon" id="info" alt="Information Icon">
+				<label for="config">(experimental) Saved configurations:</label>
+				<select name="config" id="configurations">
+					<div class="configurations">
+					<option>None</option>
+					<option>New</option>
+					</div>
+				</select>
+					<button type="button" id="del-btn" >DELETE</button>
+			</form>
+		</div>
+		<form class="weights-form">
+			<div class="weights-notice">Enter weights (separated by comma): </div>
+			<div class="weights-form-elements">
+				<input type="text" id="weights-input" name="weights-input" placeholder="1, 2, 3...">
+				<button id="weights-submit-button" type="button">SUBMIT</button>
+			</div>
+		</form>
+		<div id="output" class="grades-container-wrapper">
+		</div>
+
+		<div class="score-container">
+			<div class="result" id="result">RESULT: ???</div>
+		</div>
+	</main>
+
+	<div class="footer">
+		<div class="col-1">                
+			<div class="h3c" style="margin: 5px 0;">USEFUL LINKS</div>
+			<a href="/website/about.html">ABOUT</a>
+			<a href="/website/games.html">GAMES</a>
+			<a href="/tools/index.html">TOOLS</a>
+		</div>
+		<div class="col-2">
+			<div class="h3c" style="padding-bottom: 10px;">NEWSLETTER</div>
+			<form>
+				<input type="email" placeholder="Your Email" requireds style="font-family: Oswald;">
+				<button style="transform: translateY(2px); font-family: Oswald; height: 35px;">GET IT</button>
+			</form>
+		</div>
+		<div class="col-3">
+			<div class="h3c">CONTACT</div>
+			<div class="contact-icons">
+				<input type="text" value="ivulpibiznes@gmail.com" id="myInput" hidden>
+				<div class="tooltip" style="padding: 0px;">
+				<img onclick="Copy()" onmouseout="outFunc()" src="/website/emailbold_icon.svg" style="cursor: pointer; max-width: 50px;" alt="email icon">
+				<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+				</div>
+				<div class="container"></div>
+				<a style="margin: 0px;" href="https://discord.gg/csY3M3abuS"><img src="/website/discordlogo.svg"alt="discord icon" style="max-width: 40px; height: 32px; margin-top: 0;"></a>
+			</div>
+		</div>
+	</div>
+	<div class="footer-divider" style="color: #808080;">
+		<div class="disclaimer">
+			Except where otherwise noted, content on this site © 2023 by <a href="https://github.com/VulpiDev" class="disclaimer-link">Vulpi</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" class="disclaimer-link">CC BY-NC 4.0</a> 
+		</div>
+	</div>
+</body>
+<script src="scripts.js"></script>
+<script src="/website/darkmode.js"></script>
+</html>
