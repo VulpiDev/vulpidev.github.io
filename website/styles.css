@@ -562,7 +562,7 @@ h3{
 
 .h3c{
     display: block;
-    font-size: 28;
+    font-size: 28px;
     font-family: Oswald;
     font-weight: 400;
     margin: 0;
@@ -610,6 +610,10 @@ font-size: max(24);
 
 .col-2{
     flex-grow: 2;
+}
+
+.col-2 .h3c{
+    font-size: 28px;
 }
 
 .footer-divider{
@@ -674,11 +678,6 @@ form button:hover{
     align-items: center;
     justify-content: center;
     font-size: 24px;
-}
-
-.col-1 .h3c{
-    font-size: 28px;
-    font-weight: 500;
 }
 
 /*COPY TOOLS*/
@@ -1002,7 +1001,11 @@ form button:hover{
         font-size: 20px;
     }    
 
-    .col-1 .h3c{
+    .col-1 a{
+        margin: 0px;
+    }
+
+    .h3c{
         font-size: 22px;
     }
 
