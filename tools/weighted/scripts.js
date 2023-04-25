@@ -1,3 +1,13 @@
+/*
+COPYRIGHT NOTICE:
+
+Copyright 2023 © Vulpi, All rights reserved
+Links: Vulpi -> (https://github.com/VulpiDev),
+Email: ivulpibiznes@gmail.com       
+
+*/
+
+
 /*  CONSOLE LOGS ARE USED TO DEBUG AND OR TO VIEW THE RESULT | CALCULATIONS  */
 const submitButton = document.getElementById("weights-submit-button");
 const resultText = document.getElementById("result"); 
@@ -449,7 +459,4 @@ if (x.style.display === "none") {
 }
 
 })
-
-
-
 
