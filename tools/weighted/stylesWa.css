@@ -446,6 +446,7 @@ header{
 
 .footer-divider{
   display: flex;
+  flex-direction: column;
   background-color: var(--bkg1);
   width: 100%;
   padding: 10px;
@@ -559,12 +560,27 @@ form button:hover{
 
 .disclaimer{
   font-family: oswald;
-  color: var(--text);
+  color: var(--text4);
+  font-size: 14px;
+}
+
+.disclaimer-2{
+  display: inline;
+  text-align: center;
+  font-family: Oswald; 
+  color: var(--text4); 
+  font-weight: 300;
+  margin-bottom: 10px; 
+}
+
+.disclaimer-2 a{
+  text-decoration: none;
+  color: var(--text4)
 }
 
 .disclaimer a{
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 500;
   color: var(--text);
 }
 
@@ -767,7 +783,15 @@ form button:hover{
     align-items: center;
     justify-content: center;
     font-size: 20px;
-}   
+  }   
+
+  .disclaimer{
+    font-size: 12px
+  }
+
+  .disclaimer-2{
+    font-size: 12px;
+  }
 
   main{
       margin: 20px, 0px;
@@ -834,7 +858,15 @@ form button:hover{
   }
 
   .disclaimer{
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  .disclaimer a{
+    margin: 0px;
+  }
+
+  .disclaimer-link{
+    margin: 0px;
   }
 
 }

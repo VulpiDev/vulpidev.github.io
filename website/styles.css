@@ -103,14 +103,23 @@ main{
     text-align: center;
 }
 
+.disclaimer-2{
+    display: inline;
+    text-align: center;
+    font-family: Oswald; 
+    color: var(--text4); 
+    font-weight: 300;
+    margin-bottom: 10px; 
+}
+
 /*TOOLS WEBSITE*/
 
 .tools-container {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-
-    font-family: Oswald;    justify-content: center;
+    font-family: Oswald;    
+    justify-content: center;
     text-align: center;
     width: 100%;
   }
@@ -618,6 +627,7 @@ font-size: max(24);
 
 .footer-divider{
     display: flex;
+    flex-direction: column;
     background-color: var(--bkg1);
     width: 100%;
     padding: 10px;
@@ -671,7 +681,11 @@ form button:hover{
 }
 
 .contact-icons .container{
-    width: 20px;
+    width: 32px;
+}
+
+.contact-icons .container img{
+    width: 48px;
 }
 
 .col-1{
@@ -961,7 +975,7 @@ form button:hover{
     }
 
     .contact-icons .container{
-        width: 20px;
+        width: 32px;
     }
     .h3c{
         font-size: 18px;
@@ -1009,6 +1023,18 @@ form button:hover{
         font-size: 22px;
     }
 
+    .disclaimer{
+        font-size: 12px;
+    }
+
+    .disclaimer-link{
+        margin: 0px;
+    }
+
+    .disclaimer-2{
+        font-size: 12px;
+    }
+
     .tools-container {
         margin-top: 50px;
         display: flex;
@@ -1047,7 +1073,7 @@ form button:hover{
     }
 
     .contact-icons .container{
-        width: 10px;
+        width: 32px;
     }
 
     header .logolist .logo .logotext{
@@ -1067,7 +1093,7 @@ form button:hover{
         margin: 10px
     }
     .contact-icons img{
-        width: 28px;
+        width: 32px;
     }
 
     header{
